@@ -15,6 +15,10 @@ main() {
   print('\nSección Cliente:');
 
   Cliente cliente = new Cliente();
+  Cliente temporal = new Cliente.temporal();
+
+  temporal.informacion();
+
   cliente.nombres = 'Franco Josué';
   cliente.apellidos = 'Hernández Pérez';
   cliente.dni = '0411200402220';

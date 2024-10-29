@@ -26,6 +26,12 @@ class Cliente extends Persona {
         (dni ?? '0511200502220');
   }
 
+  Cliente.temporal() {
+    _categoria = 'Prospecto';
+  }
+
+  Cliente() {}
+
   @override
   void informacion() {
     print('\nNombres de la persona: ${nombres}');
